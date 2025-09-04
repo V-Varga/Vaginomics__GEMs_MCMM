@@ -40,7 +40,12 @@ A KEGG version of [Human-GEM](https://github.com/SysBioChalmers/Human-GEM) was a
 
 The MCMM was created using [PyCoMo](https://github.com/univieCUBE/PyCoMo) in a Jupyter Notebook. 
 
-All created and modified SBML-formatted XML files of the GEMs and the MCMM are included in the `Results_MCMMs/` directory. All scripts needed to run the MATLAB Live script and Jupyter Notebook are included in the `Scripts/` directory. All data files necessary to run the MATLAB Live script are included in the `Data/` directory.
+All created and modified SBML-formatted XML files of the GEMs and the MCMM are included in the `MCMM_XML.zip` file in the `Results_MCMMs/` directory - due to their size, these files could not be uploaded directly to GitHub. All scripts needed to run the MATLAB Live script and Jupyter Notebook are included in the `Scripts/` directory. All data files necessary to run the MATLAB Live script are included in the `Data/` directory.
+
+The primary files related to the workflow are:
+ - `MCMM_GEMs_withRaven.mlx`: The GEM creation workflow MATLAB Live script
+ - `MCMM_GEMs_withRaven.ipynb`: The MATLAB Live script exported to Jupyter Notebook format, so that the results can be seen on GitHub (.mlx files appear only as binary files when viewed on GitHub). Note that this file should be read-only; it likely cannot run!
+ - `MCMMs__README_PyCoMo.ipynb`: The Jupyter Notebook used for the PyCoMo work and MCMM workflow
 
 
 ## References
