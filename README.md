@@ -1,4 +1,4 @@
-# Vaginomics__GEMs_MCMMs
+# Vaginomics__GEMs_MCMM
 
 Author: Vi Varga
 
