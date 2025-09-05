@@ -31,7 +31,7 @@ function [model, biomassRxnID] = addPseudoBiomass_trichomonas(model, biomassRxnI
 %
 % NOTES:
 %   - Based on literature: Yarlett & Martinez 1986, Müller 1993, 
-%     Laliberte & Mirelman 1985, Hirt 2013
+%     Carlton et al. 2007, Hirt 2013
 %
 % -------------------------------------------------------------------------
 
